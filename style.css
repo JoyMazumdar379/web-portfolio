@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 .name-highlight{
@@ -12,7 +13,15 @@ body{
 }
 .half-width img{
     width: 100%;
+    border-radius: 50%;
 }
 .text{
     text-align: justify;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
 }
